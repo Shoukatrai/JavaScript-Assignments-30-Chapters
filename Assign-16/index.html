@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>1: Show an alert box on click on a link</p>
+    <a href="javascript:void(0)" style="font-size: 20px;" onclick="alertBox()">Link</a>
+
+
+    <p>2:Display some Mobile images in browser. On click on an 
+        image Show the message in alert to user</p>
+    <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdE29Ddw7Rc9SIv4MffPMknnYwCDIEKXRruQ&s" alt="" onclick="showAlertIphone()">
+    <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6AG6A7_N6Ig4eN_O-BiCnHycwhPuMnCY9Vg&s" alt="" onclick="showAlertIphone()">
+    <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDmg1d92NfyULgRdsK7BPLlJHMAjRHis8F2w&s" alt="" onclick="showAlertIphone()">
+    <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTQEJ0P-2P1kPSCndTPZZ6E_WzOmwoHnFQvA&s" alt="" onclick="showAlertIphone()">
+    <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ2148Z-K20B2wgkKkF8dWwkJKh0OJU7sr0w&s" alt="" onclick="showAlertIphone()">
+
+
+<p>3:Display 10 student records in table and each row should contain a delete 
+    button. If you click on a button to delete a record, entire row should be 
+    deleted. 
+    </p>
+<h3>Index Name Class</h3>
+<table>
+    <tr id="row1">
+        <td>0</td>
+        <td>John 10</td>
+        <td>
+            <button onclick="deletRow1()">Delete</button>
+        </td>
+    </tr>
+    
+    <tr id="row2">
+        <td>1</td>
+        <td>Doe 9</td>
+        <td>
+            <button onclick="deletRow2()">Delete</button>
+        </td>
+    </tr>
+    
+    <tr id="row3">
+        <td>2</td>
+        <td>Mrak 10</td>
+        <td>
+             <button onclick="deletRow3()">Delete</button>
+        </td>
+    </tr>
+    
+    <tr id="row4">
+        <td>3</td>
+        <td>James 8</td>
+        <td>
+            <button onclick="deletRow4()">Delete</button>
+        </td>
+    </tr>
+</table>
+
+<p>4:Display an image in browser. Change the picture on mouseover and set the
+    first picture on mouseout.</p>
+
+    <img class="iphone-image" src="https://media.wisemarket.com.pk/product/apple-iphone-16-pro-max-65.webp" alt="" onmouseover="changePic(this)" onmouseout="samePic(this)">
+
+
+
+    <p>Show a counter in browser. Counter should increase on click on increase 
+        button and decrease on click on decrease button. And show updated counter 
+        value in browser</p>
+<div class="counter">
+    <h3>Counter</h3>
+    <p id="para"></p>
+    <button onclick="increase()">Increase</button>
+    <button onclick="decrease()">Decrease</button>
+</div>
+
+
+
+
+
+
+
+</body>
+<script src="app.js"></script>
+</html>
